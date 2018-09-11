@@ -49,11 +49,7 @@ http://[External-IP]/ にアクセスして、アプリケーションを確認�
 ## GAE: 1. アプリケーションのデプロイ、確認
 ### デプロイ
 ```bash
-cd appengine
-```
-
-```bash
-gcloud app deploy
+cd appengine && gcloud app deploy
 ```
 
 ### 確認
